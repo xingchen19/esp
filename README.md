@@ -144,23 +144,31 @@ We have good experience using these editors:
 * [Atom](https://atom.io/) with [TypeScript plugin](https://atom.io/packages/atom-typescript)
 * [Sublime Text](http://www.sublimetext.com/3) with [Typescript-Sublime-Plugin](https://github.com/Microsoft/Typescript-Sublime-plugin#installation)
 
-# License
 
-[MIT](/LICENSE)
+# Deploy steps:
 
-
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++Feng Added======================
 1. Run web server for debugging:
-# npm start
+```sh
+npm start
+```
 
 2. Testing:
-# npm test
+```sh
+npm test
+```
 
 3. Build project (builded files are under dist/ dir.):
-# npm run build
-
+```sh
+npm run build
+```
 
 4. Run Webserver:
 I already installed http-server by CLI: npm install -g http-server.  
 Just need run below CLI under dir dist/ to start web server
-# http-server
+```sh
+http-server
+```
+
+# License
+
+[MIT](/LICENSE)
