@@ -1,0 +1,14 @@
+1. Run web server for debugging:
+# npm start
+
+2. Testing:
+# npm test
+
+3. Build project (builded files are under dist/ dir.):
+# npm run build
+
+
+4. Run Webserver:
+I already installed http-server by CLI: npm install -g http-server.  
+Just need run below CLI under dir dist/ to start web server
+# http-server
